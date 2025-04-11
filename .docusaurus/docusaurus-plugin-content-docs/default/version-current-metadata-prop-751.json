@@ -1,0 +1,200 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Getting Started",
+        "items": [
+          {
+            "type": "link",
+            "label": "Connectors",
+            "href": "/Test-KB-/connectors/",
+            "docId": "connectors/README"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Data Ingestion",
+        "items": [
+          {
+            "type": "link",
+            "label": "Syslog Data Ingestion",
+            "href": "/Test-KB-/data-ingestion/syslog",
+            "docId": "data-ingestion/syslog"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Device Integration",
+        "items": [
+          {
+            "type": "link",
+            "label": "Device Integration",
+            "href": "/Test-KB-/device-integration/",
+            "docId": "device-integration/README"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "DQL Language",
+        "items": [
+          {
+            "type": "link",
+            "label": "DNIF Query Language (DQL) Overview",
+            "href": "/Test-KB-/dql-language/overview",
+            "docId": "dql-language/overview"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Hunting with Workbooks",
+        "items": [
+          {
+            "type": "link",
+            "label": "Creating Workbooks",
+            "href": "/Test-KB-/hunting-with-workbooks/getting-started/create-workbook",
+            "docId": "hunting-with-workbooks/getting-started/create-workbook"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Operations",
+        "items": [
+          {
+            "type": "link",
+            "label": "Collection Status Monitoring",
+            "href": "/Test-KB-/operations/collection-status",
+            "docId": "operations/collection-status"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Security Monitoring",
+        "items": [
+          {
+            "type": "link",
+            "label": "Signal Suppression",
+            "href": "/Test-KB-/security-monitoring/signal-suppression",
+            "docId": "security-monitoring/signal-suppression"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "User Management",
+        "items": [
+          {
+            "type": "link",
+            "label": "Authentication and Access Control",
+            "href": "/Test-KB-/user-management/authentication",
+            "docId": "user-management/authentication"
+          },
+          {
+            "type": "link",
+            "label": "User Management",
+            "href": "/Test-KB-/user-management/",
+            "docId": "user-management/user-management"
+          },
+          {
+            "type": "link",
+            "label": "Tenant Management",
+            "href": "/Test-KB-/user-management/tenant-management",
+            "docId": "user-management/tenant-management"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "connectors/README": {
+      "id": "connectors/README",
+      "title": "Connectors",
+      "description": "DNIF provides various connectors to integrate with different data sources and platforms. This section documents the setup and configuration of these connectors.",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-ingestion/syslog": {
+      "id": "data-ingestion/syslog",
+      "title": "Syslog Data Ingestion",
+      "description": "DNIF supports ingesting logs from various devices and applications using the Syslog protocol. This guide explains how to configure Syslog data ingestion in DNIF.",
+      "sidebar": "tutorialSidebar"
+    },
+    "device-integration/README": {
+      "id": "device-integration/README",
+      "title": "Device Integration",
+      "description": "DNIF supports integration with various security devices and platforms. This section provides detailed documentation for integrating different devices with DNIF.",
+      "sidebar": "tutorialSidebar"
+    },
+    "dql-language/overview": {
+      "id": "dql-language/overview",
+      "title": "DNIF Query Language (DQL) Overview",
+      "description": "DQL is a powerful query language designed specifically for security analytics and log analysis in DNIF. This guide provides an overview of DQL and its capabilities.",
+      "sidebar": "tutorialSidebar"
+    },
+    "hunting-with-workbooks/getting-started/create-workbook": {
+      "id": "hunting-with-workbooks/getting-started/create-workbook",
+      "title": "Creating Workbooks",
+      "description": "Workbooks in DNIF allow you to create custom security investigations and threat hunting scenarios. This guide explains how to create and configure workbooks.",
+      "sidebar": "tutorialSidebar"
+    },
+    "operations/collection-status": {
+      "id": "operations/collection-status",
+      "title": "Collection Status Monitoring",
+      "description": "DNIF provides comprehensive tools for monitoring the status of your log collection and data ingestion. This guide explains how to monitor and manage collection status.",
+      "sidebar": "tutorialSidebar"
+    },
+    "security-monitoring/signal-suppression": {
+      "id": "security-monitoring/signal-suppression",
+      "title": "Signal Suppression",
+      "description": "Signal suppression in DNIF allows you to manage and control alert noise by suppressing specific signals based on defined rules. This guide explains how to configure and manage signal suppression.",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-management/authentication": {
+      "id": "user-management/authentication",
+      "title": "Authentication and Access Control",
+      "description": "DNIF provides comprehensive authentication and access control mechanisms to secure your SIEM platform. This guide explains the authentication methods and how to configure them.",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-management/tenant-management": {
+      "id": "user-management/tenant-management",
+      "title": "Tenant Management",
+      "description": "DNIF supports multi-tenant architecture, allowing you to manage multiple organizations or departments within a single instance. This guide explains how to manage tenants in DNIF.",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-management/user-management": {
+      "id": "user-management/user-management",
+      "title": "User Management",
+      "description": "DNIF provides comprehensive user management capabilities to help you manage users, roles, and permissions effectively. This guide explains how to manage users in DNIF.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

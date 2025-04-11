@@ -1,0 +1,24 @@
+{
+  "unversionedId": "user-management/user-management",
+  "id": "user-management/user-management",
+  "title": "User Management",
+  "description": "DNIF provides comprehensive user management capabilities to help you manage users, roles, and permissions effectively. This guide explains how to manage users in DNIF.",
+  "source": "@site/docs/user-management/user-management.md",
+  "sourceDirName": "user-management",
+  "slug": "/user-management/",
+  "permalink": "/Test-KB-/user-management/",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/user-management/user-management.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authentication and Access Control",
+    "permalink": "/Test-KB-/user-management/authentication"
+  },
+  "next": {
+    "title": "Tenant Management",
+    "permalink": "/Test-KB-/user-management/tenant-management"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "connectors/README",
+  "id": "connectors/README",
+  "title": "Connectors",
+  "description": "DNIF provides various connectors to integrate with different data sources and platforms. This section documents the setup and configuration of these connectors.",
+  "source": "@site/docs/connectors/README.md",
+  "sourceDirName": "connectors",
+  "slug": "/connectors/",
+  "permalink": "/Test-KB-/connectors/",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/connectors/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Syslog Data Ingestion",
+    "permalink": "/Test-KB-/data-ingestion/syslog"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "data-ingestion/syslog",
+  "id": "data-ingestion/syslog",
+  "title": "Syslog Data Ingestion",
+  "description": "DNIF supports ingesting logs from various devices and applications using the Syslog protocol. This guide explains how to configure Syslog data ingestion in DNIF.",
+  "source": "@site/docs/data-ingestion/syslog.md",
+  "sourceDirName": "data-ingestion",
+  "slug": "/data-ingestion/syslog",
+  "permalink": "/Test-KB-/data-ingestion/syslog",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/data-ingestion/syslog.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connectors",
+    "permalink": "/Test-KB-/connectors/"
+  },
+  "next": {
+    "title": "Device Integration",
+    "permalink": "/Test-KB-/device-integration/"
+  }
+}

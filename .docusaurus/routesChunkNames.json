@@ -1,0 +1,49 @@
+{
+  "/Test-KB-/-d9d": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "8149e955"
+    },
+    "versionMetadata": "935f2afb"
+  },
+  "/Test-KB-/connectors/-7b4": {
+    "__comp": "17896441",
+    "content": "315446a5"
+  },
+  "/Test-KB-/data-ingestion/syslog-a5f": {
+    "__comp": "17896441",
+    "content": "dcf48e0e"
+  },
+  "/Test-KB-/device-integration/-195": {
+    "__comp": "17896441",
+    "content": "c55009ec"
+  },
+  "/Test-KB-/dql-language/overview-104": {
+    "__comp": "17896441",
+    "content": "bf7bf9b4"
+  },
+  "/Test-KB-/hunting-with-workbooks/getting-started/create-workbook-d40": {
+    "__comp": "17896441",
+    "content": "ff096f3a"
+  },
+  "/Test-KB-/operations/collection-status-94c": {
+    "__comp": "17896441",
+    "content": "5b5b4540"
+  },
+  "/Test-KB-/security-monitoring/signal-suppression-0bd": {
+    "__comp": "17896441",
+    "content": "86256a10"
+  },
+  "/Test-KB-/user-management/-2ab": {
+    "__comp": "17896441",
+    "content": "b453ddab"
+  },
+  "/Test-KB-/user-management/authentication-cde": {
+    "__comp": "17896441",
+    "content": "5e164fde"
+  },
+  "/Test-KB-/user-management/tenant-management-d4e": {
+    "__comp": "17896441",
+    "content": "6f36c5cd"
+  }
+}

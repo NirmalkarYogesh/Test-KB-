@@ -1,0 +1,78 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Test-KB-/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Test-KB-/",
+          "mainDocId": "connectors/README",
+          "docs": [
+            {
+              "id": "connectors/README",
+              "path": "/Test-KB-/connectors/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-ingestion/syslog",
+              "path": "/Test-KB-/data-ingestion/syslog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "device-integration/README",
+              "path": "/Test-KB-/device-integration/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "dql-language/overview",
+              "path": "/Test-KB-/dql-language/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hunting-with-workbooks/getting-started/create-workbook",
+              "path": "/Test-KB-/hunting-with-workbooks/getting-started/create-workbook",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "operations/collection-status",
+              "path": "/Test-KB-/operations/collection-status",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "security-monitoring/signal-suppression",
+              "path": "/Test-KB-/security-monitoring/signal-suppression",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-management/authentication",
+              "path": "/Test-KB-/user-management/authentication",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-management/tenant-management",
+              "path": "/Test-KB-/user-management/tenant-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-management/user-management",
+              "path": "/Test-KB-/user-management/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/Test-KB-/connectors/",
+                "label": "connectors/README"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "security-monitoring/signal-suppression",
+  "id": "security-monitoring/signal-suppression",
+  "title": "Signal Suppression",
+  "description": "Signal suppression in DNIF allows you to manage and control alert noise by suppressing specific signals based on defined rules. This guide explains how to configure and manage signal suppression.",
+  "source": "@site/docs/security-monitoring/signal-suppression.md",
+  "sourceDirName": "security-monitoring",
+  "slug": "/security-monitoring/signal-suppression",
+  "permalink": "/Test-KB-/security-monitoring/signal-suppression",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/security-monitoring/signal-suppression.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Collection Status Monitoring",
+    "permalink": "/Test-KB-/operations/collection-status"
+  },
+  "next": {
+    "title": "Authentication and Access Control",
+    "permalink": "/Test-KB-/user-management/authentication"
+  }
+}

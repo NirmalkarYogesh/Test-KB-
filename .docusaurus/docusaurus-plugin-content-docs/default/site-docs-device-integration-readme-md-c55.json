@@ -1,0 +1,24 @@
+{
+  "unversionedId": "device-integration/README",
+  "id": "device-integration/README",
+  "title": "Device Integration",
+  "description": "DNIF supports integration with various security devices and platforms. This section provides detailed documentation for integrating different devices with DNIF.",
+  "source": "@site/docs/device-integration/README.md",
+  "sourceDirName": "device-integration",
+  "slug": "/device-integration/",
+  "permalink": "/Test-KB-/device-integration/",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/device-integration/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Syslog Data Ingestion",
+    "permalink": "/Test-KB-/data-ingestion/syslog"
+  },
+  "next": {
+    "title": "DNIF Query Language (DQL) Overview",
+    "permalink": "/Test-KB-/dql-language/overview"
+  }
+}

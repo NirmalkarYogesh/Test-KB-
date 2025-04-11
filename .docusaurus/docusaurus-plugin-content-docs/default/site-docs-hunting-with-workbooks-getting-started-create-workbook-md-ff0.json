@@ -1,0 +1,24 @@
+{
+  "unversionedId": "hunting-with-workbooks/getting-started/create-workbook",
+  "id": "hunting-with-workbooks/getting-started/create-workbook",
+  "title": "Creating Workbooks",
+  "description": "Workbooks in DNIF allow you to create custom security investigations and threat hunting scenarios. This guide explains how to create and configure workbooks.",
+  "source": "@site/docs/hunting-with-workbooks/getting-started/create-workbook.md",
+  "sourceDirName": "hunting-with-workbooks/getting-started",
+  "slug": "/hunting-with-workbooks/getting-started/create-workbook",
+  "permalink": "/Test-KB-/hunting-with-workbooks/getting-started/create-workbook",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/hunting-with-workbooks/getting-started/create-workbook.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DNIF Query Language (DQL) Overview",
+    "permalink": "/Test-KB-/dql-language/overview"
+  },
+  "next": {
+    "title": "Collection Status Monitoring",
+    "permalink": "/Test-KB-/operations/collection-status"
+  }
+}

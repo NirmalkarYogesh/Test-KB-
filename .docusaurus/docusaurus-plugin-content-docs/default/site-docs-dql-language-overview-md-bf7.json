@@ -1,0 +1,24 @@
+{
+  "unversionedId": "dql-language/overview",
+  "id": "dql-language/overview",
+  "title": "DNIF Query Language (DQL) Overview",
+  "description": "DQL is a powerful query language designed specifically for security analytics and log analysis in DNIF. This guide provides an overview of DQL and its capabilities.",
+  "source": "@site/docs/dql-language/overview.md",
+  "sourceDirName": "dql-language",
+  "slug": "/dql-language/overview",
+  "permalink": "/Test-KB-/dql-language/overview",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/dql-language/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Device Integration",
+    "permalink": "/Test-KB-/device-integration/"
+  },
+  "next": {
+    "title": "Creating Workbooks",
+    "permalink": "/Test-KB-/hunting-with-workbooks/getting-started/create-workbook"
+  }
+}

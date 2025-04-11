@@ -1,0 +1,24 @@
+{
+  "unversionedId": "user-management/authentication",
+  "id": "user-management/authentication",
+  "title": "Authentication and Access Control",
+  "description": "DNIF provides comprehensive authentication and access control mechanisms to secure your SIEM platform. This guide explains the authentication methods and how to configure them.",
+  "source": "@site/docs/user-management/authentication.md",
+  "sourceDirName": "user-management",
+  "slug": "/user-management/authentication",
+  "permalink": "/Test-KB-/user-management/authentication",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/user-management/authentication.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Signal Suppression",
+    "permalink": "/Test-KB-/security-monitoring/signal-suppression"
+  },
+  "next": {
+    "title": "User Management",
+    "permalink": "/Test-KB-/user-management/"
+  }
+}

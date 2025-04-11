@@ -1,0 +1,20 @@
+{
+  "unversionedId": "user-management/tenant-management",
+  "id": "user-management/tenant-management",
+  "title": "Tenant Management",
+  "description": "DNIF supports multi-tenant architecture, allowing you to manage multiple organizations or departments within a single instance. This guide explains how to manage tenants in DNIF.",
+  "source": "@site/docs/user-management/tenant-management.md",
+  "sourceDirName": "user-management",
+  "slug": "/user-management/tenant-management",
+  "permalink": "/Test-KB-/user-management/tenant-management",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/user-management/tenant-management.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Management",
+    "permalink": "/Test-KB-/user-management/"
+  }
+}

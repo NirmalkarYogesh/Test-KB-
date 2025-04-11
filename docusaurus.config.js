@@ -1,29 +1,32 @@
 // @ts-check
-const {themes} = require('prism-react-renderer');
-const lightCodeTheme = themes.github;
-const darkCodeTheme = themes.dracula;
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DNIF Documentation',
-  tagline: 'Security Information and Event Management Platform',
+  tagline: 'Comprehensive documentation for DNIF platform',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://dnif.it',
+  url: 'https://nirmalkaryogesh.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/kb/',
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/Test-KB-/',
 
   // GitHub pages deployment config.
-  organizationName: 'netmonastery',
-  projectName: 'dnif-documentation',
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'NirmalkarYogesh', // Usually your GitHub org/user name.
+  projectName: 'Test-KB-', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -35,14 +38,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/netmonastery/dnif-documentation/edit/main/',
           routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/NirmalkarYogesh/Test-KB-/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/netmonastery/dnif-documentation/edit/main/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -68,9 +71,8 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/netmonastery/dnif-documentation',
+            href: 'https://github.com/NirmalkarYogesh/Test-KB-',
             label: 'GitHub',
             position: 'right',
           },
@@ -83,12 +85,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Getting Started',
-                to: '/getting-started',
-              },
-              {
-                label: 'Installation',
-                to: '/installation',
+                label: 'Documentation',
+                to: '/',
               },
             ],
           },
@@ -101,7 +99,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/dnif',
+                href: 'https://discordapp.com/invite/dnif',
               },
               {
                 label: 'Twitter',
@@ -113,17 +111,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/netmonastery/dnif-documentation',
+                href: 'https://github.com/NirmalkarYogesh/Test-KB-',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Netmonastery Systems Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DNIF. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

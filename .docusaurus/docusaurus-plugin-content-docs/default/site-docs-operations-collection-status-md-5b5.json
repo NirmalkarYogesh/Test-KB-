@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/collection-status",
+  "id": "operations/collection-status",
+  "title": "Collection Status Monitoring",
+  "description": "DNIF provides comprehensive tools for monitoring the status of your log collection and data ingestion. This guide explains how to monitor and manage collection status.",
+  "source": "@site/docs/operations/collection-status.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/collection-status",
+  "permalink": "/Test-KB-/operations/collection-status",
+  "draft": false,
+  "editUrl": "https://github.com/NirmalkarYogesh/Test-KB-/tree/main/docs/operations/collection-status.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating Workbooks",
+    "permalink": "/Test-KB-/hunting-with-workbooks/getting-started/create-workbook"
+  },
+  "next": {
+    "title": "Signal Suppression",
+    "permalink": "/Test-KB-/security-monitoring/signal-suppression"
+  }
+}
